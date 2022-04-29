@@ -132,7 +132,7 @@ public class BenchmarkActivity extends RoboActivity {
 
 			// Renderscript
 			time = SystemClock.elapsedRealtime();
-			blurredBitmap = blurManager.processRenderScript(getApplicationContext(), blurAmount);
+//			blurredBitmap = blurManager.processRenderScript(getApplicationContext(), blurAmount);
 			result = new BlurBenchmarkResult("Renderscript", (int) (SystemClock.elapsedRealtime() - time));
 
 			canvas.save();

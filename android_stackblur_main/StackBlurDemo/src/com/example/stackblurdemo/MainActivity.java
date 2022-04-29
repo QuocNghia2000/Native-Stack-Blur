@@ -143,7 +143,7 @@ public class MainActivity extends RoboActivity {
 				_imageView.setImageBitmap( _stackBlurManager.processNatively(radius) );
 				break;
 			case 2:
-				_imageView.setImageBitmap( _stackBlurManager.processRenderScript(this, radius) );
+//				_imageView.setImageBitmap( _stackBlurManager.processRenderScript(this, radius) );
 				break;
 		}
 	}
